@@ -1,109 +1,152 @@
-@media only screen and (max-width:480.8px)
-{
-    header
-    {
-        display: none;
-    }
-    .mobile-header
-    {
-        display:block;
-    }
-    .mobile-header-mid
-    {
-        padding: 0px 20px;
-    }
-    .mobile-logo 
-    {
-        flex-basis: 40%;
-    }
-    .mobile-logo>a>img 
-    {
-        display: block;
-    }
-    .mobile-footer-sticky
-    {
-        display: flex;
-    }
+@media only screen and (max-width: 480.8px) {
+  header {
+    display: none;
+  }
+  .mobile-header {
+    display: block;
+    z-index: 9999999999999999;
+  }
+  .mobile-header-mid {
+    padding: 0px 20px;
+  }
+  .mobile-logo {
+    flex-basis: 40%;
+  }
+  .mobile-logo > a > img {
+    display: block;
+  }
+  .mobile-footer-sticky {
+    display: flex;
+    z-index: 99999999999;
+  }
+  .icon-sticky {
+    display: none;
+  }
+  .banner-section {
+    height: 250px;
+  }
+  .banner-img > img {
+    height: 250px;
+  }
+  .discover-mid 
+  {
+    padding: 20px;
+  }
+  .discover-mid>h2
+  {
+    padding-bottom:25px;
+  }
+  .discover-item 
+  {
+    flex-basis: 100%;
+    margin-bottom: 5%;
+  }
 }
-@media only screen and (min-width:481px) and (max-width:767.8px)
-{
-    header
-    {
-        display: none;
-    }
-    .mobile-header
-    {
-        display:block;
-    }
-    .mobile-header-mid
-    {
-        padding: 0px 10px;
-    }
-    .mobile-logo 
-    {
-        flex-basis: 30%;
-    }
-    .mobile-logo>a>img 
-    {
-        display: block;
-    }
-    .mobile-footer-sticky
-    {
-        display: flex;
-    }
-    .mobile-footer-sticky-item
-    {
-        font-size: 19px;
-    }
+@media only screen and (min-width: 481px) and (max-width: 767.8px) {
+  header {
+    display: none;
+  }
+  .mobile-header {
+    display: block;
+    z-index: 9999999999999999;
+  }
+  .mobile-header-mid {
+    padding: 0px 10px;
+  }
+  .mobile-logo {
+    flex-basis: 30%;
+  }
+  .mobile-logo > a > img {
+    display: block;
+  }
+  .mobile-footer-sticky {
+    display: flex;
+    z-index: 99999999999;
+  }
+  .mobile-footer-sticky-item {
+    font-size: 19px;
+  }
+  .icon-sticky {
+    display: none;
+  }
+  .banner-section {
+    height: 500px;
+  }
+  .banner-img > img {
+    height: 500px;
+  }
+  .discover-mid 
+  {
+    padding: 20px;
+  }
+  .discover-mid>h2
+  {
+    padding-bottom:25px;
+  }
+  .discover-item 
+  {
+    flex-basis:48%;
+    margin-bottom: 5%;
+  }
 }
-@media only screen and (min-width:768px) and (max-width:991.8px)
-{
-    header 
-    {
-        display: none;
-    }
-    .tablet-header
-    {
-        display: block;
-    }
-    .tablet-header-mid
-    {
-        padding: 0px 10px;
-    }
-    .tablet-header-mid>nav>ul>li>a 
-    {
-        font-size: 14px;
-    }
-    .mobile-footer-sticky
-    {
-        display: flex;
-    }
-    .mobile-footer-sticky-item
-    {
-        font-size: 24px;
-    }
+@media only screen and (min-width: 768px) and (max-width: 991.8px) {
+  header {
+    display: none;
+  }
+  .tablet-header {
+    display: block;
+    z-index: 9999999999999999;
+  }
+  .tablet-header-mid {
+    padding: 0px 10px;
+  }
+  .tablet-header-mid > nav > ul > li > a {
+    font-size: 14px;
+  }
+  .mobile-footer-sticky {
+    display: flex;
+    z-index: 99999999999;
+  }
+  .mobile-footer-sticky-item {
+    font-size: 24px;
+  }
+  .icon-sticky {
+    display: none;
+  }
+  .banner-section {
+    height: 500px;
+  }
+  .banner-img > img {
+    height: 500px;
+  }
+  .discover-mid 
+  {
+    padding: 20px;
+  }
 }
-@media only screen and (min-width:992px) and (max-width:1199.8px)
-{
-    .header-mid
-    {
-        padding: 0px 10px;
-    }
-    .header-mid-right 
-    {
-        flex-basis: 80%;
-    }
+@media only screen and (min-width: 992px) and (max-width: 1199.8px) {
+  .header-mid {
+    padding: 0px 10px;
+  }
+  .header-mid-right {
+    flex-basis: 80%;
+  }
+  .discover-mid 
+  {
+    padding: 20px;
+  }
 }
-@media only screen and (min-width:1200px) and (max-width:1330.8px)
-{
-    .header-mid
-    {
-        padding: 0px 10px;
-    }
-    .header-mid-right 
-    {
-        flex-basis: 80%;
-    }
+@media only screen and (min-width: 1200px) and (max-width: 1330.8px) {
+  .header-mid {
+    padding: 0px 10px;
+  }
+  .header-mid-right {
+    flex-basis: 80%;
+  }
+  .discover-mid 
+  {
+    padding: 20px;
+  }
 }
-@media only screen and (min-width:1400px) 
-{}
+@media only screen and (min-width: 1400px) {
+}
