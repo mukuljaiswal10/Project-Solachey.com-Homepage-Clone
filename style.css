@@ -451,3 +451,67 @@ header
     transform: scale(1.1);
 }
 /* end */
+
+/* wall-fan-section */
+.wall-fan-section
+{
+    width: 100%;
+    background: url(image/imgi_26_wall-fan-Promotional-Offer-Banner-.webp) no-repeat;
+    background-position:center center;
+    background-size:cover;
+    padding: 200px 0px;
+}
+.wall-fan-mid
+{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wall-fan-mid-left
+{
+    flex-basis:45%;
+}
+.wall-fan-mid-content>h3 
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.wall-fan-mid-content>h2 
+{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: -0.5px;
+    padding-bottom: 20px;
+}
+.wall-fan-mid-content>p 
+{
+    font-family: var(--tp-ff-p);
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+.wall-fan-mid-content>button 
+{
+    padding: 10px 20px;
+    border:none;
+    background-color: #123062;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.wall-fan-mid-content>button:hover 
+{
+    background-color: white ;
+    color: green;
+}
+/* end */
