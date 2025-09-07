@@ -88,6 +88,20 @@
     font-size: 16px;
     text-align: justify;
   }
+  .testimonial-mid 
+  {
+    padding: 20px;
+  }
+  .testimonial-mid>h2 
+  {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .testimonial-item
+  {
+    flex-basis: 100%;
+    margin-bottom: 5%;
+  }
 }
 @media only screen and (min-width: 481px) and (max-width: 767.8px) {
   header {
@@ -182,6 +196,20 @@
     font-size: 16px;
     text-align: justify;
   }
+  .testimonial-mid 
+  {
+    padding: 20px;
+  }
+  .testimonial-mid>h2 
+  {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .testimonial-item
+  {
+    flex-basis: 100%;
+    margin-bottom: 5%;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991.8px) {
   header {
@@ -256,6 +284,24 @@
     font-size: 16px;
     text-align: justify;
   }
+  .testimonial-mid 
+  {
+    padding: 20px;
+  }
+  .testimonial-mid>h2 
+  {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .testimonial-menu 
+  {
+    justify-content: center;
+  }
+  .testimonial-item
+  {
+    flex-basis:47%;
+    margin:1.5%;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199.8px) {
   .header-mid {
@@ -277,6 +323,10 @@
   {
     padding: 20px;
   }
+  .testimonial-mid 
+  {
+    padding: 20px;
+  }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1330.8px) {
   .header-mid {
@@ -294,6 +344,10 @@
     padding: 20px;
   }
   .wall-fan-mid
+  {
+    padding: 20px;
+  }
+  .testimonial-mid 
   {
     padding: 20px;
   }
