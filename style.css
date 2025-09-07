@@ -239,7 +239,25 @@ header
     font-weight:600;
     letter-spacing: 1px;
     font-size: 18px;
+    position: relative;
 }
+.header-mid-right>nav>ul>li>a::after 
+{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 100%;
+    right: 0px;
+    width: 0px;
+    height: 2px;
+    background-color: #123062;
+    transition: 0.5s; 
+}
+.header-mid-right>nav>ul>li>a:hover::after
+{
+    left: 0px;
+    width: 100%;
+} 
 @keyframes shadow-effect {
     0% 
     {
