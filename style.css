@@ -629,6 +629,7 @@ header
 .blog-content>h3
 {
     padding-bottom: 20px;
+    color: #123062;
 }
 .blog-content>h3:hover 
 {
@@ -683,5 +684,132 @@ header
 {
     visibility: visible;
     opacity: 1;
+}
+/* end */
+
+/* footer-section */
+.footer-section
+{
+    width: 100%;
+    background-color: #F2F2F6;
+    border-bottom: 1px solid black;
+}
+.footer-mid 
+{
+    max-width: 1320px;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-item 
+{
+    flex-basis:24%;
+}
+.footer-img 
+{
+    width: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.footer-img>img 
+{
+    display: block;
+    width: 100%;
+}
+.footer-item>p 
+{
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.footer-item>h4 
+{
+    color: #123062;
+    padding-bottom: 20px;
+}
+.footer-social-icon
+{
+    display: flex;
+    gap: 20px;
+}
+.footer-social-icon>i 
+{
+    color: green;
+    font-size: 24px;
+    cursor: pointer;
+}
+.blk 
+{
+    color: black !important;
+    padding-bottom: 50px;
+}
+.p-move 
+{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.p-move:hover 
+{
+    padding-left:10px;
+}
+.footer-item>form 
+{
+    width: 100%;
+}
+.footer-item>form>input 
+{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius:4px;
+}
+.footer-item>form>input::placeholder
+{
+    padding-left: 20px;
+}
+.footer-item>form>button 
+{
+    border:none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer-item>form>button:hover 
+{
+    background-color: rgb(66, 255, 66);
+}
+/* end */
+
+/* copy-right */
+.copy-right-section 
+{
+    width: 100%;
+    background-color:#F2F2F6;
+}
+.copy-right-mid
+{
+    max-width: 1320px;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.copy-right-mid>h3
+{
+    font-weight: 400;
+    font-size: 15px;
+}
+.copy-right-mid>h3>a 
+{
+    color: green;
 }
 /* end */
