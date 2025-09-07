@@ -365,3 +365,89 @@ header
     display: block;
 }
 /* end */
+
+/* about-section */
+.about-section
+{
+    width: 100%;
+    background-color: #F2F2F6;
+}
+.about-mid 
+{
+    max-width: 1320px;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+@keyframes move-x-axis {
+    0% 
+    {
+        transform: translate(0px);
+    }
+    25% 
+    {
+        transform: translate(10px);
+    }
+    50% 
+    {
+        transform: translate(0px);
+    }
+    75% 
+    {
+        transform: translate(-10px);
+    }
+    100% 
+    {
+        transform: translate(0px);
+    }
+}
+.about-img 
+{
+    flex-basis:50%;
+    animation: move-x-axis 2s infinite linear;
+}
+.about-img>img 
+{
+    width: 100%;
+    border-radius: 8px;
+}
+.about-content 
+{
+    flex-basis: 48%;
+}
+.about-content>h2 
+{
+    color: #123062;
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+.about-content>p 
+{
+    text-align: justify;
+    color: black;
+    line-height:30px;
+    font-size: 17px;
+    margin-bottom: 30px;
+} 
+.about-content>button 
+{
+    background-color: grey ;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.about-content>button:hover 
+{
+    background-color: #123062;
+    color: white;
+    transform: scale(1.1);
+}
+/* end */
